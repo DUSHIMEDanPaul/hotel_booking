@@ -1,3 +1,4 @@
+import "./node-compat"; // must stay first (Node 26+ SlowBuffer shim)
 import express, { Request, Response } from "express";
 import cors from "cors";
 import "dotenv/config";
